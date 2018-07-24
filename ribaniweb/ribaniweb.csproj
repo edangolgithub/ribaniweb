@@ -154,6 +154,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Anish\IMG_0584.JPG" />
+    <Content Include="Anish\IMG_0672.JPG" />
     <Content Include="Anish\index.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
