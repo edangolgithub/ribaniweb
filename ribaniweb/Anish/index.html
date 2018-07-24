@@ -3,8 +3,31 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-</head>
-<body>
+    <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css" />
 
+   
+</head>
+
+
+<body>
+    <h1 id="demo"></h1>
+    <img id="im" src="IMG_0672.jpg" />
+
+<button onclick="imchange()" class="btn btn-primary">change picture</button>
+    <script>
+        // alert("hell+o=hello");
+
+        function imchange() {
+            document.getElementById("im").src = "IMG_0584.jpg";
+        }
+       
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        document.getElementById("demo").style.fontSize = "25px";
+        document.getElementById("demo").style.color = "red";
+        document.getElementById("demo").style.backgroundColor = "pink";
+    </script>
 </body>
+
+ 
+
 </html>
