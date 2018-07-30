@@ -3,6 +3,8 @@
 <head>
     <title></title>
     <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    
 	<meta charset="utf-8" />
 </head>
 <body>
@@ -14,16 +16,76 @@
        Click Here
    </button>
 
+    <h1 id="hide">
+        hide
+    </h1>
+
+    <h1 id="show">
+        show
+    </h1>
+
+    <p>
+        This text will hide
+    </p>
+
+    <div id="div1">
+        Ribesh
+    </div>
+
+
+    <div id="div2">
+        Anish
+    </div>
+
+
+    <div id="div3">
+        Evan
+    </div>
+    <button class="btn btn-link" id="btn1" >Fade In</button>
+
+    <button class="btn btn-link" id="btn2">Fade Out</button>
+
+    <a href="https://www.youtube.com" target="_blank" >9iuj0iu</a>
+
+    <a href="https://www.youtube.com" >9iuj0iu</a>
     <script>
 
-        //alert("Wlcome cat");
-        document.getElementById("im").src = "crossfire.jpg";
-        document.getElementById("demo").innerHTML = "Hello JavaScript!";
-        document.getElementById("demo").style.fontSize = "36px;";
-        document.getElementById("demo").stylecolor = "blue"
-        document.getElementById("demo").style.backgroundColor = "aqua";
-    </script>
 
+        //document.getElementById("im").src = "crossfire.jpg";
+        //document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        //document.getElementById("demo").style.fontSize = "36px;";
+        //document.getElementById("demo").stylecolor = "blue"
+        //document.getElementById("demo").style.backgroundColor = "aqua";
+    </script>
+    <script>
+
+        $("#hide").click(function () {
+            $("p").hide();
+        });
+
+        $("#show").click(function () {
+            $("p").show();
+        });
+
+        $("#div1").hide();
+        $("#div2").hide();
+        $("#div3").hide();
+
+        $("#btn1").click(function () {
+            $("#div1").fadeIn(1000);
+            $("#div2").fadeIn(2000);
+            $("#div3").fadeIn(3000);
+        });
+
+        $("#btn2").click(function () {
+            $("#div1").fadeOut(1000);
+            $("#div2").fadeOut(2000);
+            $("#div3").fadeOut(3000);
+        });
+
+
+
+    </script>
 
 
 
