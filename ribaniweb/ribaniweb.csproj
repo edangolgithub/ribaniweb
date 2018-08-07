@@ -164,6 +164,7 @@
     <Content Include="Content\evan.css" />
     <Content Include="Content\evan.js" />
     <Content Include="Evan\index.html" />
+    <Content Include="Evan\index1.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
