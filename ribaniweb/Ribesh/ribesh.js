@@ -38,4 +38,8 @@
         $(this).text(text);
 
     });
+
+    $("#b").click(function () {
+        $("#hhh").toggle(10000);
+    });
 });
