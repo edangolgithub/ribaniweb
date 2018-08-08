@@ -5,8 +5,9 @@
     <title></title>
     <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="../Content/evan.css" rel="stylesheet" type="text/css" />
-    
-    
+    <script src="../Scripts/jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="../Content/evan.js" type="text/javascript"></script>
+
 </head>
 <body>
     <h1 id="demo"></h1>
@@ -24,9 +25,8 @@
     <p>this text will die</p>
 
 
-    <script src="../Content/evan.js" type="text/javascript"></script>
-    <script src="../Scripts/jquery-3.3.1.js" type="text/javascript"></script>
 
+   
     <div id="div1">
         <h1>div1</h1>
     </div>
@@ -38,26 +38,35 @@
     </div>
     <button class="btn btn-primary" id="button">hello</button>
     <button class="btn btn-primary" id="b">bye</button>
+    <h2>dsjkfhk</h2>
+    <h2>dfsjdio</h2>
+    <h2>dfsjdio</h2>
     <script>
-        $("#hide").click(function () {
-            $("p").hide();
+
+        $(document).ready(function () {
+            $("h2").next().css({ "color": "red" });
+
+            $("#hide").click(function () {
+                $("p").hide();
+            });
+
+            $("#show").click(function () {
+                $("p").show();
+            });
+
+
+            $("#button").click(function () {
+                $("#div1").fadeOut();
+                $("#div2").fadeOut("slow");
+                $("#div3").fadeOut(3000);
+            });
+            $("#b").click(function () {
+                $("#div1").fadeIn();
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(3000);
+            });
         });
 
-        $("#show").click(function () {
-            $("p").show();
-        });
-
-
-        $("#button").click(function () {
-            $("#div1").fadeOut();
-            $("#div2").fadeOut("slow");
-            $("#div3").fadeOut(3000);
-        });
-        $("#b").click(function () {
-            $("#div1").fadeIn();
-            $("#div2").fadeIn("slow");
-            $("#div3").fadeIn(3000);
-        });
     </script>
 </body>
 </html>

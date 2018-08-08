@@ -1,30 +1,55 @@
-﻿//var a = 1;
-//while (a <= 10) {
-//    alert(a);
-//    a++;
-//}
+﻿$(document).ready(function() {
 
-function f1() {
+    $("p").css({"color":"red"});
+    $("#p1").css({ "color": "blue" });
+    
+    
+    $("#p1").mouseenter(function () {
 
-    alert("hello");
-}
+        $(".p3").css({ "color": "yellow" });
+    });
+    $("#p1").mouseleave(function () {
 
-document.getElementById("im").src = "black label.jpg"
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-document.getElementById("demo").style.fontSize = "25px";
-document.getElementById("demo").style.color = "red";
-document.getElementById("demo").style.backgroundColor = "yellow";
-
-function f2() {
-
-    document.getElementById("likelink").innerHTML = "you liked this";
-}
+        $(".p3").css({ "color": "red" });
+    });
+    $("input").focus(function () {
+        $(this).css("background-color", "#cccccc");
+    });
+    $("input").blur(function () {
+        $(this).css("background-color", "#ffffff");
+    });
 
 
-//$("#hide").click(function () {
-//    $("p").hide();
-//});
 
-//$("#show").click(function () {
-//    $("p").show();
-//});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
