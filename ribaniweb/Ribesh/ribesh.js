@@ -14,7 +14,28 @@
 
     });
 
+    $(".jumbotron").mouseenter(function () {
+
+        $("#tk").css({"color":"green"});
+
+    });
+
+    $(".jumbotron").mouseleave(function () {
+
+        $("#tk").css({ "color": "red" });
+
+    });
+    var text = $("#h").text();
+    $("#h").css({ "cursor": "pointer" });
+    $("#h").mousedown(function () {
 
 
+        $(this).text("tokyo ghoul tokyo ghoul tokyo ghoul tokyo ghoul tokyo ghoultokyo ghoultokyo ghoultokyo ghoultokyo ghoul");
 
+    });
+
+    $("#h").mouseup(function () {
+        $(this).text(text);
+
+    });
 });
