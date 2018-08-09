@@ -1,0 +1,32 @@
+﻿body {
+}
+body{
+            background-color: black;
+        }
+      
+        
+        #h{
+            border:2px;
+            color:lawngreen;
+
+        }
+        .clss{
+            font-family:Arial;
+            font-size:18px;
+            color:white;
+            background-color:black;
+            margin-left:20px;
+        }
+        #par{
+            font-family:Arial;
+            font-size:20px;
+            color:white;
+            margin-top:15px;
+            margin-left:20px;
+        }
+        .cl{
+            border:groove;
+            border-color:red;
+            margin-left:20px;
+            position:absolute;
+        }
