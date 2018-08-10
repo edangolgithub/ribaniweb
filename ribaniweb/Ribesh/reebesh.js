@@ -1,14 +1,25 @@
 ﻿$(document).ready(function () {
 
-    $("#h").css({ "color": "lawngreen", "font-family": "algerian", "font-size": "42px", "margin": "10px" });
-    $("#r").css({ "color": "red", "font-family": "algerian", "font-size": "36px", "margin": "10px" });
-    $("#s").css({ "color": "white", "font-family": "algerian", "font-size": "18px", "margin": "10px" });
-
-    $(".t").click(function () {
+    $("#h").css({ "color": "lawngreen", "font-family": "algerian", "font-size": "42px", "margin": "20px" });
+   
+    $("#tg").addClass("clss");
 
 
-        alert("you opened Tokyo Ghoul s2");
-
+    $("#h").click(function () {
+        
+    })
+  
+    $(".cl").click(function () {
+        $(this).animate({ left: "300px" },"slow");
+        $(this).fadeOut(2000, function () {
+            $(this).css({ "position": "absolute", "height": "0px", "width": "0px" });
+            $(this).fadeIn(3000);
+             $(this).animate({ height: "450px", width: "330px" },"slow");
+        });
+       
+        
+        
+       
     });
 
 
