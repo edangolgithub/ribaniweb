@@ -169,6 +169,8 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Ribesh\crossfire.jpg" />
+    <Content Include="Ribesh\event.html" />
+    <Content Include="Ribesh\event.js" />
     <Content Include="Ribesh\index.html" />
     <Content Include="Ribesh\Index1.html" />
     <Content Include="Ribesh\kaneki.jpg" />
