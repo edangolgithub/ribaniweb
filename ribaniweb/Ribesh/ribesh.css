@@ -30,3 +30,25 @@ body{
             margin-left:20px;
             position:absolute;
         }
+     
+     #spa{
+         
+         
+         color:lawngreen;
+     }
+     #tab{
+         margin-left:700px;
+         height:200px;
+         width:300px;
+         border-color:lawngreen;
+         border-style:ridge;
+     }
+     #t{
+         color:lawngreen;
+         background-color:grey;
+         padding:10px;
+     }
+     td{
+         color:lawngreen;
+         padding:10px;
+     }
