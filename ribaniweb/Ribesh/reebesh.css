@@ -1,0 +1,28 @@
+﻿body {
+    
+}
+body{
+    background-color:black;
+}
+  #one{
+      font-family:'Old English Text MT';
+      color:whitesmoke;
+
+  }
+
+#tbl{
+    border-color:red;
+    width:600px;
+    margin-left:720px;
+    height:100px;
+}
+#trr{
+    color: red;
+    font-family:Algerian;
+    font-size:24px;
+}
+#tdd {
+    color: white;
+    font-family: Algerian;
+    font-size: 24px;
+}
