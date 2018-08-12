@@ -187,6 +187,8 @@
     <Content Include="Ribesh\TG.jpg" />
     <Content Include="Ribesh\tokyo ghoul s2.html" />
     <Content Include="Ribesh\Tokyo ghoul.html" />
+    <Content Include="Ribesh\Trav.js" />
+    <Content Include="Ribesh\Traversing.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

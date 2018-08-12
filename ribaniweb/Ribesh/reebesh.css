@@ -13,7 +13,8 @@ body{
 #tbl{
     border-color:red;
     width:600px;
-    margin-left:720px;
+    /*margin-left:720px;*/
+    
     height:100px;
 }
 #trr{
