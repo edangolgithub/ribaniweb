@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 
-    $("#h").css({ "color": "lawngreen", "font-family": "algerian", "font-size": "42px", "margin": "20px" });
+    $("#h").css({ "color": "red", "font-family": "'Segoe Script'", "font-size": "42px", "margin": "20px" });
    
     $("#tg").addClass("clss");
 
