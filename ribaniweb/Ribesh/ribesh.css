@@ -6,8 +6,9 @@ body{
       
         
         #h{
-            border:2px;
-            color:lawngreen;
+            /*border:2px;*/
+            color:red;
+            font-family:'Segoe Script';
 
         }
         .clss{
@@ -18,16 +19,18 @@ body{
             margin-left:20px;
         }
         #par{
-            font-family:Arial;
-            font-size:20px;
-            color:white;
+            font-family:'Times New Roman';
+            font-size:18px;
+            color:red;
             margin-top:15px;
-            margin-left:20px;
+            margin-left:5px;
+            background-color:#222;
+            padding:10px;
         }
         .cl{
             border:groove;
             border-color:red;
-            margin-left:20px;
+           width:200px;
             position:absolute;
         }
      
@@ -51,4 +54,14 @@ body{
      td{
          color:lawngreen;
          padding:10px;
+     }
+
+     .cmn{
+         padding:20px;
+         color:#fff;
+
+     }
+     .hg{
+         width:900px;
+        text-align:center;
      }
