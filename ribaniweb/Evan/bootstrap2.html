@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    <script src="../Scripts/popper.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Modal Example</h2>
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#r">
+            Open modal
+        </button>
+        <p data-toggle="popover" title="edkljf" data-content="wowowowowow">iudshfiusdhfiudshf</p>
+        <!-- The Modal -->
+        <div class="modal" id="r">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">ribesh amatya</h4>
+                        <p>sijkdhfiuewshfiuew</p>
+                        <button type="button" class="btn" data-dismiss="modal">close</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <button class="btn btn-primary">jkshfiodskh</button>
+                        Modal body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <h1>this is footer</h1>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+</html>
