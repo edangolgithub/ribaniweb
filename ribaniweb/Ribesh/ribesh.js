@@ -28,29 +28,17 @@
     var text = $("#h").text();
     $("#h").css({ "cursor": "pointer" });
     $("#h").mousedown(function () {
-
-
         $(this).text("tokyo ghoul tokyo ghoul tokyo ghoul tokyo ghoul tokyo ghoultokyo ghoultokyo ghoultokyo ghoultokyo ghoul");
-
-    });
+   });
 
     $("#h").mouseup(function () {
         $(this).text(text);
+    });
 
     });
 
     $("#b").click(function () {
-        //$("#hhh").toggle(10000);
-
-        $("#hhh").animate({left :"350px",opacity: '0.5',height: '250px',width: '250px',"font-size":"42px"});
-    });
-
-
-
-    $("#cl").css({ "color": "blue", "font-family": "algerian", "font-size": "42px" });
-
-    $("#bt").click(function () {
-        $("#cl").addClass("blue");
+        $("#hhh").toggle(10000);
     });
 
 
