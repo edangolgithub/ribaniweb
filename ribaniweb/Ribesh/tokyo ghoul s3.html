@@ -11,28 +11,49 @@
     </script>
     <script src="../Scripts/bootstrap.js"></script>
     <script src="../Scripts/popper.js"></script>
-
+    <style>
+       
+        a{
+            color:black;
+        }
+    </style>
    
 </head>
 <body>
     <div class="container-fluid">
 
-        <div >
-            <h1 id="h">
+        <nav class="navbar navbar-expand-sm v">
+            <p id="h" class="navbar-brand">
                 KissAnime.Is
-            </h1>
-            <div style="text-align:center" >
-                <img  src="tokyo-ghoul-banner.png" />
-            </div>
+            </p>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Anime List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mobile</a>
+                </li>
+               
+            </ul>
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-danger" type="submit">Search</button>
+            </form>
+            
+</nav>
+        <div style="text-align:center">
+            <img src="tokyo-ghoul-banner.png" />
         </div>
-
         <div class="row">
             
                 <div class="container">
                     <p id="par">
-                        Two tears passed since Tokyo is being living in fear of fericios demons known as ghouls. Ghouls look similar like
-                        humans. Only difference between ghouls and us are they eat only human flesh and we dont. On this situation a teen
-                        named Kaneki Ken gets caught in this mess which changes his whole life.
+                        Tokyo has become a cruel and merciless city—a place where vicious creatures called “ghouls” exist alongside humans. The citizens of this once great metropolis live in constant fear of these bloodthirsty savages and their thirst for human flesh. However, the greatest threat these ghouls pose is their dangerous ability to masquerade as humans and blend in with society.
+
+                        Based on the best-selling supernatural horror manga by Sui Ishida, Tokyo Ghoul follows Ken Kaneki, a shy, bookish college student, who is instantly drawn to Rize Kamishiro, an avid reader like himself. However, Rize is not exactly who she seems, and this unfortunate meeting pushes Kaneki into the dark depths of the ghouls' inhuman world. In a twist of fate, Kaneki is saved by the enigmatic waitress Touka Kirishima, and thus begins his new, secret life as a half-ghoul/half-human who must find a way to integrate into both societies.
                     </p>
                 </div>
             
@@ -51,26 +72,26 @@
         </table>-->
 
         <div class="row">
-            <div class="col-md-4 cmn" ><h2 class="display-6">Tokyo Ghoul</h2>
+            <div id="s1" class="col-md-4 cmn" ><h2 class="display-6 clsssss">Tokyo Ghoul</h2>
             
             
                 <img class="cl" src="TG.jpg" />
             
              </div>
-            <div class="col-md-4 cmn">
-                <h2 class="display-6">Tokyo Ghoul s2</h2>
+            <div id="s2" class="col-md-4 cmn">
+                <h2 class="display-6 clssss">Tokyo Ghoul s2</h2>
 
 
                 <img class="cl" src="hide.jpg" />
 
             </div>
-            <div class="col-md-4 cmn">
-                <h2 class="display-6">Tokyo Ghoul: re</h2>
+            <div id="s3" class="col-md-4 cmn">
+                <h2 class="display-6 clsss">Tokyo Ghoul: re</h2>
 
 
                 <img class="cl" src="re.jpg" />
 
-            </div>
+            </div id="s3">
 
         </div>
     </div>

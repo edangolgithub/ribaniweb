@@ -175,6 +175,7 @@
     <Content Include="Ribesh\addclass.html" />
     <Content Include="Ribesh\bootstrap1.html" />
     <Content Include="Ribesh\bootstrap2.html" />
+    <Content Include="Ribesh\bootstrap4.html" />
     <Content Include="Ribesh\crossfire.jpg" />
     <Content Include="Ribesh\event.html" />
     <Content Include="Ribesh\event.js" />

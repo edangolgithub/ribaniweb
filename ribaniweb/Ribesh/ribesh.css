@@ -1,13 +1,13 @@
 ﻿body {
 }
 body{
-            background-color: black;
+            background-color: white;
         }
       
         
         #h{
             /*border:2px;*/
-            color:red;
+            color:#83D002;
             font-family:'Segoe Script';
 
         }
@@ -21,17 +21,19 @@ body{
         #par{
             font-family:'Times New Roman';
             font-size:18px;
-            color:red;
+            color:#568A03;
             margin-top:15px;
             margin-left:5px;
-            background-color:#222;
+            background-color:#eee;
             padding:10px;
         }
         .cl{
-            border:groove;
-            border-color:red;
-           width:200px;
+            border:dashed;
+            border-color:silver;
+           width:250px;
             position:absolute;
+            border-width:2px;
+            
         }
      
      #spa{
@@ -64,4 +66,22 @@ body{
      .hg{
          width:900px;
         text-align:center;
+     }
+     .clsss{
+         color:#568A03;
+         font-family:'Segoe Script';
+     }
+     .clssss{
+         color:#568A03;
+         font-family:'Segoe Script';
+     }
+     .clsssss{
+         color:#568A03;
+         font-family:'Segoe Script';
+     }
+     .v{
+         background-color:whitesmoke;
+     }
+     #s1{
+       
      }
